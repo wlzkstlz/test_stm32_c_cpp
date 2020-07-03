@@ -1,4 +1,4 @@
-test_stm32_cpp\main.o: ../Src/main.c
+test_stm32_cpp\main.o: ..\Src\main.cpp
 test_stm32_cpp\main.o: ../Inc/main.h
 test_stm32_cpp\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
 test_stm32_cpp\main.o: ../Inc/stm32f1xx_hal_conf.h
@@ -25,3 +25,4 @@ test_stm32_cpp\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
 test_stm32_cpp\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
 test_stm32_cpp\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 test_stm32_cpp\main.o: ../Inc/gpio.h
+test_stm32_cpp\main.o: ../Inc/test.h
