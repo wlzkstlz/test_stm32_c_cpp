@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"test_stm32_cpp\startup_stm32f103xe.o"
+"test_stm32_cpp\main.o"
+"test_stm32_cpp\gpio.o"
+"test_stm32_cpp\sys.o"
+"test_stm32_cpp\stm32f1xx_it.o"
+"test_stm32_cpp\stm32f1xx_hal_msp.o"
+"test_stm32_cpp\stm32f1xx_hal_gpio_ex.o"
+"test_stm32_cpp\stm32f1xx_hal_tim.o"
+"test_stm32_cpp\stm32f1xx_hal_tim_ex.o"
+"test_stm32_cpp\stm32f1xx_hal.o"
+"test_stm32_cpp\stm32f1xx_hal_rcc.o"
+"test_stm32_cpp\stm32f1xx_hal_rcc_ex.o"
+"test_stm32_cpp\stm32f1xx_hal_gpio.o"
+"test_stm32_cpp\stm32f1xx_hal_dma.o"
+"test_stm32_cpp\stm32f1xx_hal_cortex.o"
+"test_stm32_cpp\stm32f1xx_hal_pwr.o"
+"test_stm32_cpp\stm32f1xx_hal_flash.o"
+"test_stm32_cpp\stm32f1xx_hal_flash_ex.o"
+"test_stm32_cpp\stm32f1xx_hal_exti.o"
+"test_stm32_cpp\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "test_stm32_cpp\test_stm32_cpp.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "test_stm32_cpp.map" -o test_stm32_cpp\test_stm32_cpp.axf
